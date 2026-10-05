@@ -8,7 +8,7 @@ public class Ejercicio1 {
         return -1;
     }
 
-    public static void resultadobusqueda(int[] v, int x){
+    public static void resultadoBusqueda(int[] v, int x){
         int resultado = buscar(v,x); // esto se hace para hacer el recorrido una sola vez.
         if(resultado >= 0){
             System.out.printf("El elemento %d se encuentra en la posicion %d.%n", x, resultado);
@@ -23,8 +23,8 @@ public class Ejercicio1 {
         final int x1 = 15;
         final int x2 = 9;
 
-        resultadobusqueda(vector,x1);
-        resultadobusqueda(vector,x2);
+        resultadoBusqueda(vector,x1);
+        resultadoBusqueda(vector,x2);
 
     }
 }
