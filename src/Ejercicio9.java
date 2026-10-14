@@ -25,11 +25,12 @@ public class Ejercicio9 {
 
         System.out.println("Ingrese valores aleatorios, para ver si se encuentran en el vector generado: ");
         int eleccion = scanner.nextInt();
-        do{
+        while (!estaEnElVector(eleccion, vector)){ // se le agrega el "!" para que se repita mientras NO esta en el vector.
             System.out.println("Incorrecto, intente otro numero");
             eleccion = scanner.nextInt();
-        }while (!estaEnElVector(eleccion, vector)); // se le agrega el "!" para que se repita mientras NO esta en el vector.
+        }
         System.out.println("Correcto, el número " + eleccion + " se encuentra en el vector.");
         scanner.close();
+        System.out.println("Vector generado: " + Arrays.toString(vector));
     }
 }
