@@ -26,7 +26,7 @@ public class Ejercicio9 {
 
         System.out.println("Ingrese valores aleatorios, para ver si se encuentran en el vector generado: ");
         int eleccion = scanner.nextInt();
-        while (!estaEnElVector(eleccion, vector)){ // se le agrega el "!" para que se repita mientras NO esta en el vector.
+        while (!estaEnElVector(eleccion, vector)){ // se le agrega el "!", para que se repita mientras NO está en el vector.
             System.out.println("Incorrecto, intente otro numero");
             fallos++;
             eleccion = scanner.nextInt();
