@@ -6,7 +6,7 @@ public class Ejercicio2 {
             int medio = inicio + (fin - inicio) / 2;
             if (v[medio] == x) return medio;
             if (v[medio] < x) inicio = medio + 1;
-            else fin = medio - 1;
+            else/*cuando (v[medio] > x)*/ fin = medio - 1;
             }
         return -1;
     }
