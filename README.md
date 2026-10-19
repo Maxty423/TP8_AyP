@@ -1,7 +1,7 @@
 ![Logo](https://www.untdf.edu.ar/wp-content/themes/untdf-2026/assets/logos/logo-untdf.svg)
 
 
-# TP7 Algoritmica y Programacion
+# TP8 Algoritmica y Programacion
 
 Estos son los ejercicios desarrollados en la clase de Algoritmica y programacion de los trabajos practicos correspondietes al año 2026.
 
